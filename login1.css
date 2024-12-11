@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(img/superNintendo.gif);
+    background-size: contain;
+    background-color: black;
+}
+
+.contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+h1 {
+    color: #ffd700;
+    text-shadow: 
+        1px 1px 0 #0f52ba,
+        -1px -1px 0 #0f52ba,
+        1px -1px 0 #0f52ba,
+        -1px 1px 0 #0f52ba;
+}
+
+.contenido2 {
+    background: #0f52ba;
+    border-radius: 8px;
+    box-shadow: 5px 10px #0d0d0d;
+    padding: 20px;
+    width: 28%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    justify-content: center;
+}
+
+.form-imagen {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.imagenInicio {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.IniciaSesion {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.IniciaSesion input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ff0000;
+    border-radius: 4px;
+}
+
+.Siguiente {
+    border-radius: 5px;
+    background-color: #ff0000;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Siguiente:hover {
+    background-color: #0f52ba;
+}
+
+footer {
+    width: 100%;
+    background: linear-gradient(to right, var(--blue), var(--black));
+    color: var(--white);
+    text-align: center;
+    padding: 20px;
+}
